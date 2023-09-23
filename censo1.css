@@ -1,0 +1,206 @@
+body{
+    font-family: Arial, Helvetica;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-plano-azul_52683-62850.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10%;
+    padding: 0;
+    font-family: montserrat;
+    height: 100vh;
+    border-radius: 10px;
+}
+.menu{
+    list-style:none;
+    background-image: url(https://th.bing.com/th/id/R.cc9d42bacbaaeea1e2e153be9b8cb475?rik=XgSKCIRS7dNi0Q&pid=ImgRaw&r=0);
+    background-size: 1000px 20ex;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+
+
+
+.fondo1{
+    color: rgb(255, 0, 0);
+    width: 40%;
+}
+
+.nombre { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border:none;
+    background: none;
+    color: aliceblue;
+}
+.edad { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.genero { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+
+.conocer { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.empezaste { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.horas { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.diversion { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.rol { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.amigos { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.sorteos{ 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.logrado { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.comunidad { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.cambiar { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.jugabilidad { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.reportes { 
+    font-weight: bold;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+
+.sorteofinal{
+    font-weight: bold; 
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+
+
+

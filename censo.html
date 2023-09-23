@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Censo 2023</title>
+    <link rel="stylesheet" href="censo1.css"/>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="https://www.gub.uy/instituto-nacional-estadistica/tematica/censo-2023#" target="_blank">menu prinipal</a></li>
+    
+
+    <li><a href="https://www.gub.uy/instituto-nacional-estadistica/estadisticas">estadisticas</a></li>
+   
+
+    <li><a href="https://www.gub.uy/instituto-nacional-estadistica/comunicacion/noticias">noticias</a></li>
+
+    <li><a href="https://www.gub.uy/instituto-nacional-estadistica/tramites-y-servicios/servicios">servicios</a></li>
+  </ul>
+
+  <div class="fondo1">
+  <h1>BIENVENIDOS AL CENSO 2023</h1>
+  </div>
+  <div class="nombre">
+  <form id="censoForm">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br>
+  </div>
+  <div class="edad">
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required><br>
+  </div>
+    <div class="genero">
+    <label for="genero">Género:</label>
+    <select id="genero" name="genero" required>
+      <option value="">Selecciona una opción</option>
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+      <option value="otro">Otro</option>
+    </select><br>
+
+  </div>
+    <div class="conocer">
+    <label for="conocer">¿cuantas habitaciones tiene tu casa?</label>
+    <input type="number" id="conocer" name="conocer" required><br>
+  </div>
+    <div class="empezaste">
+    <label for="empezaste">¿cuantas personas viven en ella?</label>
+    <input type="number" id="empezaste" name="empezaste" required><br>
+  </div>
+    <div class="horas">
+    <label for="horas">¿cuantas horas al dia trabajas?</label>
+    <input type="number" id="horas" name="horas" required><br>
+  </div>
+    <div class="diversion">
+    <label for="diversion">¿en tu tiempo libre que haces para divertirte?</label>
+    <select id="diversion" name="" required>
+       <option value="">Selecciona una opción</option>
+      <option value="profresional">deportes</option>
+      <option value="diversion">videojuegos</option>
+      <option value="diversion">viajar</option>
+      <option value="diversion">socializar</option>
+    </select>
+      <br>
+  </div>
+    <div class="rol">
+    <label for="rol">¿cursa o asiste a algun establecimiento educativo?</label>
+    <select id="rol" name="" required>
+      <option value="">Selecciona una opción</option>
+     <option value="midlane"> guarderia</option>
+     <option value="toplane">escuela</option>
+     <option value="adcarry">liceo/utu</option>
+     <option value="jungla">universidad</option>
+     <option value="soporte">privado</option>
+   </select>
+     <br>
+  </div>
+    <div class="amigos">
+    <label for="amigos">¿tiene algun titulo, especifique?</label>
+    <input type="text" id="amigos" name="amigos" required><br>
+  </div>
+    <div class="sorteos">
+    <label for="sorteos">¿nacio en este departamento, u otro?</label>
+    <input type="text" id="sorteos" name="sorteos" required><br>
+  </div>
+
+    <div class="logrado">
+    <label for="logrado">¿tiene cobertura de salud publica o privada?</label>
+    <input type="text" id="logrado" name="logrado" required><br>
+  </div>
+    <div class="comunidad">
+    <label for="comunidad">¿este hogar tiene internet en la vivienda. celular con internet?</label>
+    <input type="text" id="comunidad" name="comunidad" required><br>
+  </div>
+    <div class="cambiar">
+    <label for="cambiar">¿cobra jubilacion o pension?</label>
+    <input type="text" id="cambiar" name="cambiar" required><br>
+  </div>
+    <div class="jugabilidad">
+    <label for="jugabilidad">¿se reconoce indigena o descendiente de pueblos indigenas o pueblos originarios?</label>
+    <input type="text" id="jugabilidad" name="jugabilidad" required><br>
+  </div>
+    <div class="reportes">
+    <label for="reportes">¿se reconoce afrodescendiente?</label>
+    <input type="text" id="reportes" name="reportes" required><br>
+  </div>
+    <div class="sorteofinal">
+    <label for="sorteofinal">¿se sintio comodo respondiendo a estas preguntas?</label>
+    <br>
+
+    <label for="pase">Si</label>
+<input type="radio" id="pase" name="gender" value="pase">
+
+<label for="skin">No</label>
+<input type="radio" id="skin" name="gender" value="skin">
+
+
+  </div>
+
+
+    <h1><input type="submit" value="Enviar"></h1>
+  </form>
+  <script>
+   document.getElementById("censoForm").addEventListener("submit", function(event) {
+  event.preventDefault(); 
+
+  alert("Formulario enviado correctamente");
+  window.location.href='https://www.gub.uy/instituto-nacional-estadistica/tematica/censo-2023#'; 
+});
+      </script>
+
+</body>
+</html
